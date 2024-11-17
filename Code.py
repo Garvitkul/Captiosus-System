@@ -140,8 +140,8 @@ while continue_reading:
         if uid == my_uid:                #Open the Doggy Door if matching UIDs
             print("Access Granted")
             recognised()
-            s.sendmail("captiosus.system@gmail.com", "garvitindian@gmail.com", message1)
-        s.sendmail("captiosus.system@gmail.com", "shrutivij15@gmail.com",message1)
+            s.sendmail("captiosus.system@gmail.com", "garvit@gmail.com", message1)
+        s.sendmail("captiosus.system@gmail.com", "shruti@gmail.com",message1)
             time.sleep(1)
             
         else:                            #Don't open if UIDs don't match
